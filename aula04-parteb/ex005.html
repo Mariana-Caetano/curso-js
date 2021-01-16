@@ -10,13 +10,13 @@
     <script>
         var nome = window.prompt("Qual o seu nome?");
         var idade = window.prompt("Qual a sua idade?");
-        //var altura = window.prompt("Qual a sua altura?");
+        var altura = window.prompt("Qual a sua altura?");
         var salario = window.prompt("Qual o seu salário?");
 
         document.write(`Olá, ${nome.toUpperCase()} </br>`);
         document.write(`Estou vendo aqui, que você tem ${idade} anos </br>`);
-        //document.write(`sua altura é ${altura.toFixed(1).replace('.', ',')} </br>`);
-        document.write(`e tem o salário de ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}`);
+        document.write(`sua altura é ${altura.toFixed(1).replace('.', ',')} </br>`);
+        document.write(`e tem o salário de ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
         
          
         
