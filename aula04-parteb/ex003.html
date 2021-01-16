@@ -11,10 +11,10 @@
     <h1>Hello, world!</h1>
     <p>Já me livrei da maldição.</p>  
     <script>
-        var n1 =  Number.parseFloat(window.prompt("Digite um número:"));
-        var n2 =  Number.parseFloat(window.prompt("Digite outro número:"));
+        var n1 =  Number(window.prompt("Digite um número:"));
+        var n2 =  Number(window.prompt("Digite outro número:"));
         var soma = n1 + n2;
-        window.alert("A soma dos valores é " + soma);
+        window.alert(`A soma do valores é ${soma}`);
 
         // o '+' pode servir para adição - ex.: number + number
         //e também para a concatenação - ex.: string + string
