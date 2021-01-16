@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(244, 204, 248);
+}
+
+h1 {
+    color: rgb(52, 0, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+}
+
+p {
+    color: #585858;
+}
